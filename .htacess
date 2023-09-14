@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ameliasosa.es [NC]
+RewriteRule ^(.*)$ https://ameliasosa.es/$1 [L,R=301]
